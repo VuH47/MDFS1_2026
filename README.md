@@ -2,7 +2,7 @@
  + Demo map the area as chess table, maze looking from top view - 2D.
 
 
-
+## Theory, intergration can be find in MSTeam shared folder
 
 
 ## Run example, please install GCC 
@@ -21,5 +21,6 @@ THEN RUN
 + gcc -g (NAME OF THE .C) -o (NAME OF THE .EXE)
 
 OR 
+
 
 + .\(NAME OF THE .EXE)
