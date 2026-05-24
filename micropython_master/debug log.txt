@@ -1,0 +1,293 @@
+current reading value spin manually to confirm working. 
+pos=      0
+Left:  delta=   68  pos=      0   |   Right: delta=   95  pos=      0
+Left:  delta=   26  pos=      0   |   Right: delta=   43  pos=      0
+Left:  delta=    0  pos=      0   |   Right: delta=    0  pos=      0
+Left:  delta=   -2  pos=      0   |   Right: delta=  -24  pos=      0
+Left:  delta=  -48  pos=      0   |   Right: delta= -118  pos=      0
+Left:  delta= -102  pos=      0   |   Right: delta= -152  pos=      0
+Left:  delta=  -87  pos=      0   |   Right: delta= -102  pos=      0
+Left:  delta=  -19  pos=      0   |   Right: delta=  -50  pos=      0
+Left:  delta=    0  pos=      0   |   Right: delta=    0  pos=      0
+Left:  delta=    6  pos=      0   |   Right: delta=    8  pos=      0
+Left:  delta=   61  pos=      0   |   Right: delta=  106  pos=      0
+Left:  delta=   98  pos=      0   |   Right: delta=  164  pos=      0
+Left:  delta=   75  pos=      0   |   Right: delta=  131  pos=      0
+Left:  delta=   56  pos=      0   |   Right: delta=   49  pos=      0
+Left:  delta=   32  pos=      0   |   Right: delta=   46  pos=      0
+Left:  delta=    3  pos=      0   |   Right: delta=   12  pos=      0
+Left:  delta=  -34  pos=      0   |   Right: delta=  -57  pos=      0
+Left:  delta= -107  pos=      0   |   Right: delta= -141  pos=      0
+Left:  delta= -102  pos=      0   |   Right: delta= -173  pos=      0
+Left:  delta=  -98  pos=      0   |   Right: delta= -153  pos=      0
+Left:  delta=  -39  pos=      0   |   Right: delta= -148  pos=      0
+Left:  delta=   -8  pos=      0   |   Right: delta=  -28  pos=      0
+Left:  delta=    0  pos=      0   |   Right: delta=    0  pos=      0
+Left:  delta=    0  pos=      0   |   Right: delta=    0  pos=      0
+Left:  delta=    0  pos=      0   |   Right: delta= 
+
+Phase 1 Results: 
+
+MPY: soft reboot
+============================================================
+ 4WD ROBOT OPEN-LOOP DRIVE TEST (Phase 1)
+ Pins from config – same command per side
+ Lift wheels or use a safe test area!
+============================================================
+
+[1/5] Forward 50%  2s
+[quad_encoder:left] WARNING: GPIO 34 is input-only on ESP32. External pull-up required.
+[quad_encoder:left] WARNING: GPIO 35 is input-only on ESP32. External pull-up required.
+FORWARD 50% for 2.0s ...
+forward      L: d=    0 p=      0  |  R: d=    0 p=      0
+forward      L: d=  315 p=      0  |  R: d=  360 p=      0
+forward      L: d=  424 p=      0  |  R: d=  490 p=      0
+forward      L: d=  430 p=      0  |  R: d=  500 p=      0
+forward      L: d=  433 p=      0  |  R: d=  506 p=      0
+forward      L: d=  433 p=      0  |  R: d=  508 p=      0
+forward      L: d=  438 p=      0  |  R: d=  508 p=      0
+forward      L: d=  438 p=      0  |  R: d=  514 p=      0
+forward      L: d=  439 p=      0  |  R: d=  514 p=      0
+forward      L: d=  439 p=      0  |  R: d=  512 p=      0
+forward done + braked
+
+[2/5] Reverse 40%  1.5s
+[quad_encoder:left] WARNING: GPIO 34 is input-only on ESP32. External pull-up required.
+[quad_encoder:left] WARNING: GPIO 35 is input-only on ESP32. External pull-up required.
+REVERSE 40% for 1.5s ...
+reverse      L: d=    2 p=      0  |  R: d=    0 p=      0
+reverse      L: d= -196 p=      0  |  R: d=  182 p=      0
+reverse      L: d= -331 p=      0  |  R: d=    0 p=      0
+reverse      L: d= -341 p=      0  |  R: d=    0 p=      0
+reverse      L: d= -345 p=      0  |  R: d=    0 p=      0
+reverse      L: d= -345 p=      0  |  R: d=    0 p=      0
+reverse      L: d= -350 p=      0  |  R: d=    0 p=      0
+reverse      L: d= -350 p=      0  |  R: d=    0 p=      0
+reverse done + braked
+
+[3/5] Turn in place 40%  2s
+[quad_encoder:left] WARNING: GPIO 34 is input-only on ESP32. External pull-up required.
+[quad_encoder:left] WARNING: GPIO 35 is input-only on ESP32. External pull-up required.
+TURN_IN_PLACE (L-,R+) 40% for 2.0s ...
+turn         L: d=    0 p=      0  |  R: d=    0 p=      0
+turn         L: d= -308 p=      0  |  R: d=  288 p=      0
+turn         L: d= -340 p=      0  |  R: d=  386 p=      0
+turn         L: d= -345 p=      0  |  R: d=  392 p=      0
+turn         L: d= -345 p=      0  |  R: d=  396 p=      0
+turn         L: d= -344 p=      0  |  R: d=  397 p=      0
+turn         L: d= -346 p=      0  |  R: d=  395 p=      0
+turn         L: d= -345 p=      0  |  R: d=  398 p=      0
+turn         L: d= -346 p=      0  |  R: d=  400 p=      0
+turn         L: d= -347 p=      0  |  R: d=  400 p=      0
+turn done + braked
+
+[4/5] Ramp 0→70→0
+[quad_encoder:left] WARNING: GPIO 34 is input-only on ESP32. External pull-up required.
+[quad_encoder:left] WARNING: GPIO 35 is input-only on ESP32. External pull-up required.
+RAMP TEST (both sides together)
+ramp   0%    L: d=   -3 p=      0  |  R: d=    1 p=      0
+ramp  10%    L: d=  -45 p=      0  |  R: d=   88 p=      0
+ramp  20%    L: d=    5 p=      0  |  R: d=  131 p=      0
+ramp  30%    L: d=  284 p=      0  |  R: d=  442 p=      0
+ramp  40%    L: d=  616 p=      0  |  R: d=  792 p=      0
+ramp  50%    L: d=  950 p=      0  |  R: d= 1150 p=      0
+ramp  60%    L: d= 1283 p=      0  |  R: d= 1516 p=      0
+ramp  70%    L: d= 1611 p=      0  |  R: d= 1884 p=      0
+ramp  60%    L: d= 1946 p=      0  |  R: d= 2248 p=      0
+ramp  50%    L: d= 1685 p=      0  |  R: d= 1974 p=      0
+ramp  40%    L: d= 1359 p=      0  |  R: d= 1612 p=      0
+ramp  30%    L: d= 1033 p=      0  |  R: d= 1242 p=      0
+ramp  20%    L: d=  705 p=      0  |  R: d=  881 p=      0
+ramp  10%    L: d=  388 p=      0  |  R: d=  517 p=      0
+ramp   0%    L: d=   78 p=      0  |  R: d=  168 p=      0
+ramp complete
+
+[5/5] Final brake
+All motors braked.
+
+All tests finished. Check encoder deltas matched commanded directions.
+If a side runs opposite to encoder, set invert=True in that QuadEncoder.
+If rear does not follow front direction, verify L298N wiring.
+Motors de-initialized. Safe to re-import.
+
+
+Phase 2 test result. 
+MPY: soft reboot
+============================================================
+ 20 ms CONTROL LOOP DEMO  |  speed=40.0%  |  10.0s
+ Uses RateTimer + drive + encoders (inverts from config)
+============================================================
+[quad_encoder:left] WARNING: GPIO 34 is input-only on ESP32. External pull-up required.
+[quad_encoder:left] WARNING: GPIO 35 is input-only on ESP32. External pull-up required.
+[  10] dt= 20 j= 0  Ld=  35 Rd=   0  cmds=( 40.0,-40.0)
+[  20] dt= 20 j= 0  Ld=  36 Rd=   0  cmds=( 40.0,-40.0)
+[  30] dt= 20 j= 0  Ld=  34 Rd=   0  cmds=( 40.0,-40.0)
+[  40] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[  50] dt= 20 j= 0  Ld=  35 Rd=   0  cmds=( 40.0,-40.0)
+[  60] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[  70] dt= 20 j= 0  Ld=  38 Rd=   0  cmds=( 40.0,-40.0)
+[  80] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[  90] dt= 20 j= 0  Ld=  35 Rd=   0  cmds=( 40.0,-40.0)
+[ 100] dt= 20 j= 0  Ld=  36 Rd=   0  cmds=( 40.0,-40.0)
+[ 110] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[ 120] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[ 130] dt= 20 j= 0  Ld=  36 Rd=   0  cmds=( 40.0,-40.0)
+[ 140] dt= 20 j= 0  Ld=  35 Rd=   0  cmds=( 40.0,-40.0)
+[ 150] dt= 21 j= 1  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[ 160] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[ 170] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[ 180] dt= 20 j= 0  Ld=  35 Rd=   0  cmds=( 40.0,-40.0)
+[ 190] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[ 200] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[ 210] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[ 220] dt= 20 j= 0  Ld=  35 Rd=   0  cmds=( 40.0,-40.0)
+[ 230] dt= 20 j= 0  Ld=  34 Rd=   0  cmds=( 40.0,-40.0)
+[ 240] dt= 20 j= 0  Ld=  35 Rd=   0  cmds=( 40.0,-40.0)
+[ 250] dt= 20 j= 0  Ld=  38 Rd=   0  cmds=( 40.0,-40.0)
+[ 260] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[ 270] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[ 280] dt= 20 j= 0  Ld=  36 Rd=   0  cmds=( 40.0,-40.0)
+[ 290] dt= 20 j= 0  Ld=  35 Rd=   0  cmds=( 40.0,-40.0)
+[ 300] dt= 20 j= 0  Ld=  35 Rd=   0  cmds=( 40.0,-40.0)
+[ 310] dt= 20 j= 0  Ld=  36 Rd=   0  cmds=( 40.0,-40.0)
+[ 320] dt= 20 j= 0  Ld=  36 Rd=   0  cmds=( 40.0,-40.0)
+[ 330] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[ 340] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[ 350] dt= 20 j= 0  Ld=  36 Rd=   0  cmds=( 40.0,-40.0)
+[ 360] dt= 20 j= 0  Ld=  35 Rd=   0  cmds=( 40.0,-40.0)
+[ 370] dt= 20 j= 0  Ld=  36 Rd=   0  cmds=( 40.0,-40.0)
+[ 380] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[ 390] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[ 400] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[ 410] dt= 20 j= 0  Ld=  36 Rd=   0  cmds=( 40.0,-40.0)
+[ 420] dt= 20 j= 0  Ld=  35 Rd=   0  cmds=( 40.0,-40.0)
+[ 430] dt= 20 j= 0  Ld=  38 Rd=   0  cmds=( 40.0,-40.0)
+[ 440] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+[ 450] dt= 20 j= 0  Ld=  36 Rd=   0  cmds=( 40.0,-40.0)
+[ 460] dt= 20 j= 0  Ld=  38 Rd=   0  cmds=( 40.0,-40.0)
+[ 470] dt= 20 j= 0  Ld=  38 Rd=   0  cmds=( 40.0,-40.0)
+[ 480] dt= 20 j= 0  Ld=  36 Rd=   0  cmds=( 40.0,-40.0)
+[ 490] dt= 20 j= 0  Ld=  35 Rd=   0  cmds=( 40.0,-40.0)
+[ 500] dt= 20 j= 0  Ld=  37 Rd=   0  cmds=( 40.0,-40.0)
+
+Loop finished. Statistics:
+  Iterations : 500
+  Avg jitter : 0.03 ms
+  Max jitter : 1 ms
+  Target     : 20 ms
+Clean shutdown complete.
+>>> 
+Phase 3 Results
+MPY: soft reboot
+============================================================
+ ODOMETRY TEST  |  8.0s @ 35.0%  |  20 ms loop
+ Watch x/y/theta integrate. Drive 1 m straight for calibration.
+============================================================
+[quad_encoder:left] WARNING: GPIO 34 is input-only on ESP32. External pull-up required.
+[quad_encoder:left] WARNING: GPIO 35 is input-only on ESP32. External pull-up required.
+[  25] x= 0.045 y=-0.000 θ=-0.01 rad  v=0.100  totalL= 0.090m
+[  50] x= 0.095 y=-0.001 θ=-0.02 rad  v=0.088  totalL= 0.191m
+[  75] x= 0.146 y=-0.002 θ=-0.03 rad  v=0.101  totalL= 0.293m
+[ 100] x= 0.197 y=-0.004 θ=-0.04 rad  v=0.105  totalL= 0.395m
+[ 125] x= 0.248 y=-0.007 θ=-0.05 rad  v=0.108  totalL= 0.497m
+[ 150] x= 0.299 y=-0.010 θ=-0.06 rad  v=0.098  totalL= 0.599m
+[ 175] x= 0.350 y=-0.013 θ=-0.08 rad  v=0.098  totalL= 0.700m
+[ 200] x= 0.401 y=-0.017 θ=-0.09 rad  v=0.098  totalL= 0.803m
+[ 225] x= 0.452 y=-0.022 θ=-0.10 rad  v=0.101  totalL= 0.905m
+[ 250] x= 0.502 y=-0.027 θ=-0.11 rad  v=0.101  totalL= 1.007m
+[ 275] x= 0.553 y=-0.033 θ=-0.12 rad  v=0.108  totalL= 1.109m
+[ 300] x= 0.604 y=-0.040 θ=-0.13 rad  v=0.105  totalL= 1.211m
+[ 325] x= 0.655 y=-0.047 θ=-0.14 rad  v=0.098  totalL= 1.314m
+[ 350] x= 0.706 y=-0.054 θ=-0.15 rad  v=0.101  totalL= 1.417m
+[ 375] x= 0.756 y=-0.062 θ=-0.16 rad  v=0.105  totalL= 1.518m
+[ 400] x= 0.806 y=-0.071 θ=-0.18 rad  v=0.105  totalL= 1.621m
+
+=== FINAL POSE ===
+x = 0.8062 m
+y = -0.0710 m
+θ = -0.1752 rad  (-10.0°)
+Total left distance:  1.6207 m
+Total right distance: 0.0000 m
+
+Calibration tip: if you drove exactly 1.00 m straight,
+new m_per_count ≈ (1.0) / ((totalL + totalR)/2 / current_m_per_count)
+Odom test clean shutdown.
+>>> 
+/// UPDATED TEST rear
+
+MPY: soft reboot
+
+=======================================================
+CODE LEFT  →  pins 13 + 14  (L298N left channel)
+Watch the PHYSICAL wheel on the LEFT side of the robot.
+Is it going FORWARD or BACKWARD?
+=======================================================
+
+
+=======================================================
+CODE RIGHT →  pins 22 + 23  (L298N right channel)
+Watch the PHYSICAL wheel on the RIGHT side of the robot.
+Is it going FORWARD or BACKWARD?
+=======================================================
+
+>>> pin are now wired as the description, Test rear left correct however test rear right it going in the opposite direction
+resolved by change config.h right motor invert = true 
+
+////// current test drive straight///// PHASE 3 
+>>> %Run -c $EDITOR_CONTENT
+
+MPY: soft reboot
+=================================================================
+ INTEGRATED 20ms LOOP  |  STRAIGHT 30%  |  6s
+ Full chassis (front + rear) + odometry
+=================================================================
+[quad_encoder:left] WARNING: GPIO 34 is input-only on ESP32. External pull-up required.
+[quad_encoder:left] WARNING: GPIO 35 is input-only on ESP32. External pull-up required.
+[  10] x= 0.036 y= 0.000 θ=   0.0°  v=0.242  rear=(-1,1)
+[  20] x= 0.086 y= 0.000 θ=   0.1°  v=0.255  rear=(-1,1)
+[  30] x= 0.137 y= 0.000 θ=   0.1°  v=0.252  rear=(-1,1)
+[  40] x= 0.188 y= 0.000 θ=   0.2°  v=0.255  rear=(-1,1)
+[  50] x= 0.240 y= 0.001 θ=   0.3°  v=0.278  rear=(-1,1)
+[  60] x= 0.292 y= 0.001 θ=   0.3°  v=0.259  rear=(-1,1)
+[  70] x= 0.344 y= 0.001 θ=   0.4°  v=0.265  rear=(-1,1)
+[  80] x= 0.396 y= 0.001 θ=   0.4°  v=0.259  rear=(-1,1)
+[  90] x= 0.449 y= 0.002 θ=   0.5°  v=0.262  rear=(-1,1)
+[ 100] x= 0.500 y= 0.002 θ=   0.5°  v=0.255  rear=(-1,1)
+[ 110] x= 0.552 y= 0.003 θ=   0.6°  v=0.268  rear=(-1,1)
+[ 120] x= 0.605 y= 0.003 θ=   0.6°  v=0.265  rear=(-1,1)
+[ 130] x= 0.658 y= 0.004 θ=   0.7°  v=0.268  rear=(-1,1)
+[ 140] x= 0.710 y= 0.005 θ=   0.7°  v=0.262  rear=(-1,1)
+[ 150] x= 0.763 y= 0.005 θ=   0.8°  v=0.275  rear=(-1,1)
+[ 160] x= 0.815 y= 0.006 θ=   0.8°  v=0.281  rear=(-1,1)
+[ 170] x= 0.868 y= 0.007 θ=   0.9°  v=0.262  rear=(-1,1)
+[ 180] x= 0.920 y= 0.008 θ=   0.9°  v=0.272  rear=(-1,1)
+[ 190] x= 0.973 y= 0.009 θ=   1.0°  v=0.262  rear=(-1,1)
+[ 200] x= 1.026 y= 0.010 θ=   1.0°  v=0.268  rear=(-1,1)
+[ 210] x= 1.079 y= 0.011 θ=   1.1°  v=0.259  rear=(-1,1)
+[ 220] x= 1.131 y= 0.012 θ=   1.1°  v=0.255  rear=(-1,1)
+[ 230] x= 1.184 y= 0.013 θ=   1.2°  v=0.272  rear=(-1,1)
+[ 240] x= 1.237 y= 0.014 θ=   1.2°  v=0.271  rear=(-1,1)
+[ 250] x= 1.290 y= 0.015 θ=   1.3°  v=0.259  rear=(-1,1)
+[ 260] x= 1.342 y= 0.016 θ=   1.4°  v=0.259  rear=(-1,1)
+[ 270] x= 1.394 y= 0.017 θ=   1.4°  v=0.239  rear=(-1,1)
+[ 280] x= 1.446 y= 0.019 θ=   1.5°  v=0.278  rear=(-1,1)
+[ 290] x= 1.498 y= 0.020 θ=   1.5°  v=0.259  rear=(-1,1)
+[ 300] x= 1.550 y= 0.022 θ=   1.6°  v=0.259  rear=(-1,1)
+
+=== FINAL POSE ===
+x = 1.5503 m
+y = 0.0215 m
+θ = 1.57 °
+Total left distance:  1.551 m (approx)
+Integrated loop stopped cleanly.
+>>> have not test on the floor to measure distance but all wheel go straight 
+
+
+//// calibration PHASE////////////
+ 99% - L=1077 R=1040 speed=10%
+ {"counts_R": 1051, "saved_at_ms": 734030, "avg_counts": 1071.0, "speed": 10.0, "m_per
+
+current m_per_count
+1.4939e-3
+saved m_per_count
+1.4939e-3 (measured 1600 mm)
